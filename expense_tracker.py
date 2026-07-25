@@ -67,6 +67,10 @@ def load_info():
             data = json.load(file)
             expense = [Expense.from_dict(d) for d in data]
 
+    else:
+        expense=[]
+        save_info()
+
 def main():
     is_running = True
     load_info()
