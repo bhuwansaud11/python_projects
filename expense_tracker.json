@@ -3,21 +3,11 @@
         "Name": "Bhuwan",
         "Expenses": [
             {
-                "Name": "Iphone",
+                "Name": "iphone",
                 "Amount": 99999,
-                "Category": "Mobile",
-                "Date": "18/07/2026"
-            },
-            {
-                "Name": "Pasta",
-                "Amount": 30,
-                "Category": "Food",
-                "Date": "18/08/2026"
+                "Category": "mobile",
+                "Date": "25/07/2026"
             }
         ]
-    },
-    {
-        "Name": "Bob",
-        "Expenses": []
     }
 ]
