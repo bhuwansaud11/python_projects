@@ -1,0 +1,23 @@
+[
+    {
+        "Name": "Bhuwan",
+        "Expenses": [
+            {
+                "Name": "Iphone",
+                "Amount": 99999,
+                "Category": "Mobile",
+                "Date": "18/07/2026"
+            },
+            {
+                "Name": "Pasta",
+                "Amount": 30,
+                "Category": "Food",
+                "Date": "18/08/2026"
+            }
+        ]
+    },
+    {
+        "Name": "Bob",
+        "Expenses": []
+    }
+]
