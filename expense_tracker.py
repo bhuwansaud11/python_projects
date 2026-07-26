@@ -32,10 +32,10 @@ class Expense:
     def view_category(self):
         found = False
         category = input("Category: ").lower()
+        print(f"{'ID':<10} {'Name':<15} {'Amount':<15} {'Category':<15} {'Date':<10}")
+        print("-"*60)
         for index,list in enumerate(self.list_of_expenses,1):
             if list['Category'].lower() ==  category:
-                print(f"{'ID':<10} {'Name':<15} {'Amount':<15} {'Category':<15} {'Date':<10}")
-                print("-"*60)
                 print(f"{index:<10} {list['Name']:<15} {list['Amount']:<15} {list['Category']:<15} {list['Date']:<10}")
                 found = True
         if not found:
@@ -54,7 +54,7 @@ class Expense:
         print("Total expenses: $",total)
 
 
-filename = os.path.join(os.path.dirname(__file__), 'expense_tracker.json')
+filename = "expense_tracker.json"
 expense = []
 def save_info():
     with open(filename,'w') as file:
